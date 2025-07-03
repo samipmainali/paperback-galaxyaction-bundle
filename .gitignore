@@ -1,3 +1,6 @@
 .DS_Store
 /node_modules
-/bundles
+# Keep bundles folder but ignore development files
+/src
+*.log
+.env
