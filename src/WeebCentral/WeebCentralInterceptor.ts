@@ -1,11 +1,11 @@
 import { PaperbackInterceptor, Request, Response } from "@paperback/types";
+import { WC_DOMAIN } from "./WeebCentralConfig";
 
-export class GalaxyActionInterceptor extends PaperbackInterceptor {
+export class WeebCentralInterceptor extends PaperbackInterceptor {
     override async interceptRequest(request: Request): Promise<Request> {
         request.headers = {
             ...request.headers,
-            referer: `https://galaxyaction.net/`,
-            "user-agent": await Application.getDefaultUserAgent(),
+            referer: `${WC_DOMAIN}/`,
         };
         return request;
     }
@@ -17,4 +17,4 @@ export class GalaxyActionInterceptor extends PaperbackInterceptor {
     ): Promise<ArrayBuffer> {
         return data;
     }
-} 
+}
