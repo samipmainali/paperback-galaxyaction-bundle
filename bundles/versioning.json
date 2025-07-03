@@ -1,5 +1,5 @@
 {
-  "buildTime": "2025-07-03T12:16:59.442Z",
+  "buildTime": "2025-07-03T12:19:13.577Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.53",
     "types": "1.0.0-alpha.53"
@@ -74,27 +74,6 @@
         }
       ],
       "id": "ComicK"
-    },
-    {
-      "name": "GalaxyAction",
-      "description": "Extension that pulls content from galaxyaction.net.",
-      "version": "1.0.0",
-      "icon": "icon.png",
-      "language": "en",
-      "contentRating": "SAFE",
-      "capabilities": [
-        4,
-        64,
-        1,
-        32
-      ],
-      "badges": [],
-      "developers": [
-        {
-          "name": "SamipMainali"
-        }
-      ],
-      "id": "GalaxyAction"
     },
     {
       "name": "MangaDex",
@@ -295,6 +274,27 @@
         }
       ],
       "id": "WeebCentral"
+    },
+    {
+      "name": "GalaxyAction",
+      "description": "Extension that pulls content from galaxyaction.net.",
+      "version": "1.0.0",
+      "icon": "icon.png",
+      "language": "en",
+      "contentRating": "SAFE",
+      "capabilities": [
+        4,
+        64,
+        1,
+        32
+      ],
+      "badges": [],
+      "developers": [
+        {
+          "name": "SamipMainali"
+        }
+      ],
+      "id": "galaxyaction"
     }
   ]
 }
